@@ -37,4 +37,14 @@ public class Frog {
         this.name = name;
         this.sex = sex;
     }
+
+    public int copyFrogColour(Frog extFrog){
+        try{
+            this.colour = extFrog.getColour();
+            return 200;
+        }catch (Exception e){
+            e.printStackTrace();
+            return -1;
+        }
+    }
 }
