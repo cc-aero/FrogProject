@@ -19,5 +19,13 @@ public class Main {
         anotherFrog.setPosition(1);
         anotherFrog.setColour("Red");
         anotherFrog.setSex(false);
+
+        Frog thirdFrog = new Frog("Blue",3,"Janet",false);
+        Frog fourthFrog = new Frog("Yellow",4,"Carl",true);
+        Frog fifthFrog = new Frog("Pink",5,"Margaret",false);
+
+        // It will not be possible to directly access variables within our Frog instances as they have private scope
+
+
     }
 }

@@ -47,4 +47,16 @@ public class Frog {
             return -1;
         }
     }
+    public void moveLeft(){
+        this.position --;
+        if(this.position < 1){
+            this.position = 1;
+        }
+    }
+    public void moveRight(){
+        this.position ++;
+        if(this.position > 5){
+            this.position = 5;
+        }
+    }
 }
