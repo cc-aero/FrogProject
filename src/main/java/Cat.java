@@ -1,4 +1,29 @@
 public class Cat {
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getBreed() {
+        return breed;
+    }
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+    public String getColour() {
+        return colour;
+    }
+    public void setColour(String colour) {
+        this.colour = colour;
+    }
+    public boolean isSex() {
+        return sex;
+    }
+    public void setSex(boolean sex) {
+        this.sex = sex;
+    }
+
     private String name;
     private String breed;
     private String colour;
